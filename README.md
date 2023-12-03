@@ -112,16 +112,3 @@ npm run dev
 ```
 
 - 在浏览器中打开http://localhost:3000查看应用程序。
-
-## docker 部署
-
-```sh
-# 打包
-docker build -t brick-doc-ai ./
-
-# 打tag
-docker tag brick-doc-ai:latest image-beta.weiyun.baidu.com/baidu_projects/axure-sketch-hub/brick-doc-ai:[tagid]
-
-# 发布到微云
-docker push image-beta.weiyun.baidu.com/baidu_projects/axure-sketch-hub/brick-doc-ai:[tagid]
-```
